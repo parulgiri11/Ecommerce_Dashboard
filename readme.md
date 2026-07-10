@@ -81,24 +81,20 @@ Main columns used:
 ## Dashboard Overview
 
 > Add your dashboard screenshot here.
-
+<!-- 
 ```markdown
 ![Dashboard Overview](images/dashboard_overview.png)
-```
+``` -->
 ---
 
 ## KPI Cards
 
-```markdown
-```
 ![KPI Cards]({kpi_cards}.png)
 
 ---
 
 ## Sales Analysis
 
-```markdown
-```
 ![Sales Analysis]({sales_analysis1}.png)
 ![Sales Analysis]({sales_analysis2}.png)
 
@@ -106,8 +102,6 @@ Main columns used:
 
 ## Filters
 
-```markdown
-```
 ![Filters]({sidebar_filters}.png)
 
 ---
