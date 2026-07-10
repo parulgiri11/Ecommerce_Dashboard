@@ -85,7 +85,7 @@ Main columns used:
 ```markdown
 ![Dashboard Overview](images/dashboard_overview.png)
 ```
-![alt text](image.png)
+
 ---
 
 ## KPI Cards
