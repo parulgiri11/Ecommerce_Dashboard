@@ -90,7 +90,7 @@ Main columns used:
 ## KPI Cards
 
 ```markdown
-![KPI Cards](kpi_cards.png)
+![KPI Cards]({kpi_cards}.png)
 ```
 
 ---
@@ -98,8 +98,8 @@ Main columns used:
 ## Sales Analysis
 
 ```markdown
-![Sales Charts](sales_analysis1.png)
-![Sales Charts](sales_analysis2.png)
+![Sales Charts]({sales_analysis1}.png)
+![Sales Charts]({sales_analysis2}.png)
 ```
 
 ---
@@ -107,7 +107,7 @@ Main columns used:
 ## Filters
 
 ```markdown
-![Filters](sidebar_filters.png)
+![Filters]({sidebar_filters}.png)
 ```
 
 ---
