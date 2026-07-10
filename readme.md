@@ -80,11 +80,8 @@ Main columns used:
 
 ## Dashboard Overview
 
-> Add your dashboard screenshot here.
-<!-- 
-```markdown
-![Dashboard Overview](images/dashboard_overview.png)
-``` -->
+![alt text]({Dashboard1}.png)
+![alt text]({Dashboard2}.png)
 ---
 
 ## KPI Cards
