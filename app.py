@@ -107,7 +107,8 @@ fig = px.bar(
     y="Sales",
     title="📊 Sales by Category",
     text_auto=".2s",
-    color="Category"
+    color="Category",
+    width=250
 )
 
 fig.update_layout(
@@ -119,6 +120,17 @@ fig.update_layout(
     }
 )
 
+fig.update_traces(
+    marker=dict(
+        line=dict(
+            color="white",        # Border color
+            width=1.5             # Border thickness
+        )
+    ),
+    width=0.6                    # Width of bars
+)
+
+
 # Create Sales by Region Chart
 fig_region = px.bar(
     sales_by_region,
@@ -126,7 +138,8 @@ fig_region = px.bar(
     y="Sales",
     title="🌍 Sales by Region",
     text_auto=".2s",
-    color="Region"
+    color="Region",
+    width=250
 )
 
 fig_region.update_layout(
@@ -135,7 +148,17 @@ fig_region.update_layout(
         "text": "🌍 Sales by Region",
         "x": 0.5,
         "xanchor": "center"
-    }
+    },
+)
+
+fig_region.update_traces(
+    marker=dict(
+        line=dict(
+            color="white",        # Border color
+            width=1.5             # Border thickness
+        )
+    ),
+    width=0.6                    # Width of bars
 )
 
 # Create Monthly Sales Trend Chart
@@ -213,7 +236,7 @@ with col1:
         box-shadow:2px 2px 8px rgba(0,0,0,0.2);
     ">
         <h5>Total Sales</h5>
-        <h3>₹{total_sales:.2f}M</h3>
+        <h3>₹{total_sales:.2f}</h3>
     </div>
     """, unsafe_allow_html=True)
 
@@ -228,7 +251,7 @@ with col2:
         box-shadow:2px 2px 8px rgba(0,0,0,0.2);
     ">
         <h5>Total Profit</h5>
-        <h3>₹{total_profit:.2f}M</h3>
+        <h3>₹{total_profit:.2f}</h3>
     </div>
     """, unsafe_allow_html=True)
 
